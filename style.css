@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #212121;
+}
+
+.main-header {
+    text-align: center;
+
+}
+
+.main-header h1 {
+    color: white;
+    margin: 0;
+    line-height: 1.15;
+    font-size: 4rem;
+}
+
+.main-header p {
+    line-height: 1.4;
+    font-size: 1.2rem;
+    color: #adadad;
+}
+
+.join-btn {
+    width: 40%;
+    padding: 0.5rem;
+    justify-content: center;
+    color: rgba(33,33,33,1);
+    background-color: rgba(77,208,225,1);
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+}
+
+.card {
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin-top: 3rem;
+    align-items: center;
+    justify-content: center;
+    color: #adadad;
+    border: 1px solid white;
+    gap: 20px;
+    border-radius: 20px;
+    grid-template-columns: 1fr 2fr;
+
+}
